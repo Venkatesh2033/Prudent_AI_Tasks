@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "Account Info": {
+      "bank name": "HDFC Bank",
+      "account holder name": "Ravi Kumar",
+      "account number": "XXXX-XXXX-3456",
+      "statement month": "October",
+      "statement year": "2025",
+      "account type": "Savings"
+    },
+    "Summary Values": {
+      "opening balance": 15000.0,
+      "closing balance": 16500.0,
+      "total credits": 25000.0,
+      "total debits": 13500.0,
+      "average daily balance": 15800.0,
+      "overdraft count": 0,
+      "nsf count": 0
+    },
+    "Transactions": [
+      {
+        "date": "2025-10-01",
+        "description": "Salary Credit",
+        "amount": 20000.0,
+        "balance": 35000.0,
+        "category": "Income"
+      },
+      {
+        "date": "2025-10-05",
+        "description": "ATM Withdrawal - HDFC ATM Mumbai",
+        "amount": -2000.0,
+        "balance": 33000.0,
+        "category": "ATM Cash"
+      }
+    ]
+  },
+  "insights": [
+    "Account maintained > ₹10,000 average balance during October.",
+    "Salary credited on Oct 1.",
+    "Frequent UPI spending — consider cashback programs."
+  ],
+  "quality": {
+    "ocr_confidence": "0.95",
+    "missing_sections": [],
+    "duplicate_entries": false,
+    "gemini_confidence": "High"
+  }
+}

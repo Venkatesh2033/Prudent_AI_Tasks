@@ -1,0 +1,5 @@
+google-generativeai
+pytesseract
+Pillow
+PyPDF2
+pdf2image
