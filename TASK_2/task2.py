@@ -52,7 +52,7 @@ def load_prompt(file_name: str) -> str:
 
 def call_gemini(prompt: str, text: str) -> Any:
     "Call Gemini with safety + timeout"
-    genai.configure(api_key=os.environ.get("AIzaSyAivTM6RDTynndcRLKwBzH-MJzylIXYCrM"))
+    genai.configure(api_key=os.environ.get("Google_API_Key"))
     model = genai.GenerativeModel(GEMINI_MODEL)
     response = model.generate_content(prompt + "\n\n" + text)
     return response.text
@@ -116,3 +116,4 @@ if __name__ == "__main__":
 
     result = process_bank_statement(args.file_path, args.test)
     print(json.dumps(result, indent=2))
+
