@@ -20,6 +20,7 @@ It applies machine learning for anomaly detection and provides analytical visual
 - Anomaly detection using Isolation Forest  
 - Interactive data visualization with summary metrics  
 
+## To Execute: python task1.py
 ---
 
 ### Task 2 – Bank Statement Parser
@@ -34,6 +35,7 @@ It returns a structured JSON output with account details, transaction summaries,
 - Automatic masking of sensitive account numbers  
 - Generates summarized insights and metadata for quality assessment  
 
+### To Execute: python task2.py <path_to_statement.pdf> --test
 ---
 
 ## Tech Stack
